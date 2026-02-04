@@ -1,0 +1,64 @@
+/* Requisito 8: Propiedades del Body (Fondo) */
+body {
+    background-color: #1a1a1a; /* Gris muy oscuro, casi negro (Cinemático) */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Tipografía limpia */
+    margin: 40px;
+    line-height: 1.6;
+}
+
+/* Requisito 9: Estilos de Texto (H1, H2, P) */
+
+/* Título principal: Color Ámbar/Fuego para resaltar sobre el fondo oscuro */
+h1 {
+    color: #e67e22; 
+    font-size: 48px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 40px;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+/* Subtítulos: Color Blanco Hueso para jerarquía visual */
+h2 {
+    color: #ecf0f1; 
+    font-size: 28px;
+    border-left: 5px solid #c0392b; /* Un detalle rojo sangre al lado del título */
+    padding-left: 15px;
+    margin-top: 30px;
+}
+
+/* Párrafos: Gris claro para lectura cómoda sin cansar la vista */
+p {
+    color: #bdc3c7; 
+    font-size: 18px;
+    text-align: justify; /* Justificado para que se vea como un artículo serio */
+    max-width: 900px; /* Evita que el texto sea demasiado ancho */
+}
+
+/* Estilos extra para las imágenes y enlaces (Requisito 10: Atractivo Visual) */
+img {
+    border: 2px solid #555;
+    border-radius: 8px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    max-width: 100%; /* Hace que las imágenes sean responsivas */
+}
+
+a {
+    color: #e74c3c; /* Rojo para los enlaces */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #ff6b6b;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(192, 57, 43, 0.75), rgba(0, 0, 0, 0));
+    margin: 40px 0;
+}
